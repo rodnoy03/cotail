@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;   
+}
+
+body{
+    padding: 0;
+	margin: 0;
+    font-size: 20px;
+    background-color:#ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{    
+    height: 80px;
+    background-color:orange;
+}
+
+.header__content{
+    padding-top: 15px;   
+    
+}
+
+.header__content img{
+    height: 50px;
+    float:left;
+}
+
+
+.group{
+    width: 30%;
+    background-color:burlywood;
+    padding: 15px;    
+    float:left;
+    border-radius: 0 0 0 20px ;   
+
+}
+
+.group p{    
+    margin-top: 0px;
+}
+
+
+
+
+.products{
+    width: 70%;
+    float:left;
+    background-color:cornsilk;
+    padding: 10px;
+}
+
+
+#arrow{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 320px;
+    cursor: pointer;
+    
+}
+#arrow img{
+    height: 50px;
+}
+.arrow{
+    display: block;
+}
+.arrow-2{
+    display: none;
+}
+
+
+
+
